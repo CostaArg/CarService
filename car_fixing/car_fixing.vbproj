@@ -96,9 +96,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>car_brand_dataset.xsd</DependentUpon>
     </Compile>
+    <Compile Include="car_brand_dataset.vb">
+      <DependentUpon>car_brand_dataset.xsd</DependentUpon>
+    </Compile>
     <Compile Include="car_databaseDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>car_databaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="car_databaseDataSet.vb">
       <DependentUpon>car_databaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="form_with_db.Designer.vb">
